@@ -1,26 +1,28 @@
 {
   "name": "@vm0100/ngmock",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.",
   "private": false,
   "author": "vm0100@163.com",
   "license": "MIT",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc"
+    "packagr": "ng-packagr -p ng-package.json && cd dist && npm pack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vm0100/QuickNgMock.git"
   },
-  "dependencies": {
-    "@angular/common": "^11.0.2",
-    "@angular/core": "^11.0.2",
-    "extend": "^3.0.2",
-    "rxjs": "^6.6.3"
-  },
   "devDependencies": {
-    "typescript": "^4.1.2"
+    "ng-packagr": "^11.1.2",
+    "@angular/common": "~11.0.2",
+    "@angular/compiler": "~11.0.2",
+    "@angular/core": "~11.0.2",
+    "@angular/cli": "~11.0.2",
+    "@angular/compiler-cli": "~11.0.2",
+    "rxjs": "~6.6.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.0.2"
   },
   "bugs": {
     "url": "https://github.com/vm0100/QuickNgMock/issues"
