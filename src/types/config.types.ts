@@ -7,10 +7,10 @@ export interface NgMockConfig {
 
 export type ConfigKey = keyof NgMockConfig;
 
-export const _CONFIG = new InjectionToken<NgMockConfig>('-config', {
+export const ALAIN_CONFIG_CONFIG = new InjectionToken<NgMockConfig>('-config', {
   providedIn: 'root',
-  factory: _CONFIG_FACTORY,
+  factory: ALAIN_CONFIG_CONFIG_FACTORY,
 });
-export function _CONFIG_FACTORY(): NgMockConfig {
+export function ALAIN_CONFIG_CONFIG_FACTORY(): NgMockConfig {
   return {};
 }
