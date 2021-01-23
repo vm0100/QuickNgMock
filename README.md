@@ -7,7 +7,7 @@
 import { NgModule } from '@angular/core';
 
 import {
-  DelonMockModule,
+  NgMockModule,
   AlainConfig,
   ALAIN_CONFIG,
 } from '@quick/ngmock';
@@ -30,7 +30,7 @@ const alainConfig: AlainConfig = {
       useValue: alainConfig,
     },
   ],
-  imports: [DelonMockModule.forRoot()],
+  imports: [NgMockModule.forRoot()],
   declarations: [AppComponent],
 })
 export class AppModule {}

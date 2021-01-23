@@ -1,6 +1,6 @@
 {
   "name": "@vm0100/ngmock",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.",
   "private": false,
   "author": "vm0100@163.com",
@@ -13,17 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/vm0100/QuickNgMock.git"
   },
-  "files": [
-    "index.js",
-    "index.d.ts",
-    "src/*.js",
-    "src/*.d.ts",
-    "src/**/*.js",
-    "src/**/*.d.ts",
-    "README.md",
-    "LICENSE",
-    "package.json"
-  ],
   "dependencies": {
     "@angular/common": "^11.0.2",
     "@angular/core": "^11.0.2",
