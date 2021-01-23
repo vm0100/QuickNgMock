@@ -1,12 +1,12 @@
 import { Inject, Injectable, Optional } from '@angular/core';
 import { deepMergeKey } from '../util/deep';
-import { NgMockConfig, ConfigKey, _CONFIG } from '../types/config.types';
+import { NgMockConfig, ConfigKey, MOCK_CONFIG_CONFIG } from '../types/config.types';
 
 @Injectable({ providedIn: 'root' })
 export class ConfigService {
   private config: NgMockConfig;
 
-  constructor(@Optional() @Inject(_CONFIG) defaultConfig?: NgMockConfig) {
+  constructor(@Optional() @Inject(MOCK_CONFIG_CONFIG) defaultConfig?: NgMockConfig) {
     this.config = { ...defaultConfig };
   }
 
