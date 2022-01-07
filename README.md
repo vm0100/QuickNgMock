@@ -1,5 +1,5 @@
 # Quick NgMock
-其实是改造自@delon/mock，因为@delon/mock有@delon依赖，所以就拉下来改造了
+简单的ngMock组件
 
 # Usage
 ```typescript
